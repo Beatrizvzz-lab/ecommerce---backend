@@ -39,7 +39,7 @@ backend/
 
 ### 🔐 Login
 
-O usuário realiza uma requisição `POST` para `/auth/login`, passando email e senha. Em caso de sucesso, é retornado um token JWT:
+O usuário realiza uma requisição `POST` para `/login`, passando email e senha. Em caso de sucesso, é retornado um token JWT:
 ```json
 {
   "token": "eyJhbGciOiJIUzI1NiIs..."
